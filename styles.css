@@ -3,27 +3,45 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f9;
+    background: url('bg6.jpg') no-repeat center center/cover;
+}
+
+.title {
+    font-family: 'Times New Roman', serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    color: #000;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid #000;
     width: 70%;
     height: 400px;
-    background-color: #0B192C;
+    background-color: #FFCCCC;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .header {
-    width: 97.9%;
-    border-bottom: 2px solid black;
+    width: 98%;
     text-align: center;
+    border-bottom: 2px solid #000;
     padding: 10px;
-    background-color: #FF6500;
+    background-color: #FEBBCC;
+}
+
+.header p {
+    margin: 1px 0 0;
+    font-size: 1rem;
+    font-style: italic;
 }
 
 .content {
@@ -43,7 +61,7 @@ body {
 .left-section button {
     margin: 10px;
     padding: 10px 20px;
-    background-color: #FF6500;
+    background-color: #FEBBCC;
     color: #000;
     border: 2px solid #000;
     cursor: pointer;
@@ -54,7 +72,7 @@ body {
 }
 
 .left-section button:hover {
-    background-color: #000;
+    background-color: #e35882;
     color: #fff;
     border: 2px solid #ddd;
 }

@@ -1,0 +1,11 @@
+String grpName = "Group1";
+byte energyLvl = -100;
+int yrLvl = 3;
+long population = 8191420825;
+double pi = 3.141592653589793;
+boolean isThisFun = false;
+char grade = 'A';
+float price;
+short height;
+height = 144;
+
