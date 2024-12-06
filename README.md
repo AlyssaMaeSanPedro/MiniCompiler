@@ -1,4 +1,4 @@
-# LexSyn: A Mini Compiler
+# LexiSyn: A Mini Compiler
 LexSyn analyzes Java code for lexical, syntax, and semantic correctness, focusing on variable declarations.
 
 ![image](https://github.com/user-attachments/assets/e3427f87-0de6-4eff-91c2-640a7f8b8f4b)
